@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".ui.MainActivity">
+
+    <EditText
+        android:id="@+id/edtEndereco2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btBuscar2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Buscar Clima" />
+
+    <TextView
+        android:id="@+id/txtClima"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="City" />
+
+    <EditText
+        android:id="@+id/edtEndereco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btBuscar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ALTERAR CIDADE 01" />
+
+    <TextView
+        android:id="@+id/txtClima2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="City" />
+
+    <EditText
+        android:id="@+id/edtEndereco3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btBuscar3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ALTERAR CIDADE 02" />
+
+    <TextView
+        android:id="@+id/txtClima3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="City" />
+
+    <EditText
+        android:id="@+id/edtEndereco4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btBuscar4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ALTERAR CIDADE 03" />
+
+    <TextView
+        android:id="@+id/txtClima4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="City" />
+
+    <EditText
+        android:id="@+id/edtEndereco5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btBuscar5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ALTERAR CIDADE 04" />
+
+    <TextView
+        android:id="@+id/txtClima5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="City" />
+
+    <EditText
+        android:id="@+id/edtEndereco6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btBuscar6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ALTERAR CIDADE 05" />
+
+    <TextView
+        android:id="@+id/txtClima6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="City" />
+
+</LinearLayout>
+
+
